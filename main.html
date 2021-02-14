@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <title>JSON</title>
+    <link rel="icon" type="image" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style_main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <content>
+
+        <h1> Form for send and get data from JSON file</h1>
+
+        <form onsubmit="return false">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="surname" placeholder="Surname" required>
+            <input type="text" id="city" placeholder="City" required>
+            <input type="number" id="number" placeholder="Phone number" required>
+            <input type="email" id="email" placeholder="Email" required>
+
+            <button onclick="sendJSON()">Send</button>
+
+        </form>
+
+            <button onclick="getJSON()">Get info</button>
+        
+        <div class="info"></div>
+    </content>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./js/data_to_JSON.js"></script>
+
+</body>
+</html>
