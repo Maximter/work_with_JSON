@@ -55,7 +55,7 @@ header("Content-Type: application/json");
 
 #### And after receiving the information:
 
-<img src="img/photo2.jpg" width="600px">
+<img src="img/изображение_2021-02-15_025850.png" width="600px">
 
 For looking the work you should open file "main.html"
 Or Just go to the link for watch the video -   
