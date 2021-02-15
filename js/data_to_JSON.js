@@ -1,7 +1,3 @@
-var newData;
-var sendData;
-
-
 async function sendJSON() {
 
     let user = {
