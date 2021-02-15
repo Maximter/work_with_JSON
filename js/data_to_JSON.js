@@ -7,6 +7,10 @@ async function sendJSON() {
         number: document.getElementById('number').value,
         email: document.getElementById('email').value
     };
+    
+    if (user.name == "" || user.surname == "" || user.city == "" || user.number == "" || user.email == "") {
+        return 0;
+    }
 
     try {
 
